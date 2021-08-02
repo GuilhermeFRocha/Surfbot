@@ -11,6 +11,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -47,7 +50,7 @@
 
         <div class="btn">
 
-          <input type="text" id="email" name="email">
+          <input type="text" id="email" name="email" placeholder="email">
           <label for="email">Matricule-se</label>
         </div>
       </div>
@@ -62,10 +65,15 @@
           <img class="img-map" src="./img/mapa.jpg" alt="">
         </div>
 
-        <ul> COMO CHEGAR
-          <li>Carro</li>
-          <li>Onibus</li>
-          <li>Linha</li>
+        <div class="desc-maps">
+
+          <h4>Como chegar</h4>
+
+          <ul>
+            <li> <span style="color: black;">Carro</span> pela via Lucio costa sentido Barra</li>
+            <li><span style="color: black;">Onibus</span> 2333, 168, 138, 189 e 17</li>
+            <li><span style="color: black;">Linha </span>azul sentido Zona Sul</li>
+        </div>
       </div>
 
 
@@ -192,59 +200,80 @@
     </section>
 
     <section>
+
       <h1 class="contato">Contato</h1>
 
       <div class="head">
 
         <div class="form">
-          
-          
-              <label for="name">Nome</label>
-              <input type="text" id="name" name="name">
-      
-          
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email">
-            
+          <div class="min-form">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name">
+          </div>
+
+          <div class="min-form">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+          </div>
+
+          <div class="min-form">
             <label for="area">Mensagem</label>
-              <textarea name="area" id="area" cols="30" rows="10"></textarea>
-            
-          
+            <textarea name="area" id="area" cols="30" rows="10"></textarea>
+
+          </div>
+
+          <button class="button">Enviar mensagem</button>
+
         </div>
+
 
         <div class="form2">
-          
-         <div >
-           <h3>Endereço</h3>
-          <ul>
-            <li>Praia mansa nº 47</li>
-            <li>Rio de Janeiro - RJ</li>
-            <li>Procure a barraca vermelha</li>
-          </ul>
+
+          <div>
+            <h3>Endereço</h3>
+            <ul>
+              <li>Praia mansa nº 47</li>
+              <li>Rio de Janeiro - RJ</li>
+              <li>Procure a barraca vermelha</li>
+            </ul>
+          </div>
+
+          <div class="span">
+            <h3>Email & Telefone</h3>
+            <ul>
+              <li>contato@surfbot.com</li>
+              <li>34 99999-9999</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Horário</h3>
+            <ul>
+              <li>De Sexta á Sábado</li>
+              <li>Das 06:00 as 14:00hr</li>
+            </ul>
+          </div>
+
         </div>
 
-        <div >
-          <h3>Email & Telefone</h3>
-          <ul>
-            <li>contato@surfbot.com</li>
-            <li>34 99999-9999</li>
-          </ul>
-        </div>
-        
-        <div> 
-        <h3>Horário</h3>
-          <ul>
-            <li>De Sexta á Sábado</li>
-            <li>Das 06:00 as 14:00hr</li>
-          </ul>
-        </div>
-        </div>
-        
-        </div>
-    
+      </div>
+
     </section>
 
   </main>
+
+  <footer>
+
+    <div>
+
+      <p>Surfbot 2021 Direitos reservado</p>
+      <img src="./img/surfbot-icon.svg" alt="">
+
+    </div>
+
+  </footer>
+
 
 </body>
 
