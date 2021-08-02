@@ -30,7 +30,7 @@ body {
   font-size: 20px;
   text-decoration: none;
   color: white;
-  font-family: 'Fira Code', monospace;;
+  font-family: 'Nunito Sans', sans-serif;;;
 }
 
 .btn {
@@ -48,7 +48,7 @@ body {
 .cont h1 {
   font-size: 60px;
   color: white;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Nunito Sans', sans-serif;;
   text-shadow: 0.1em 0.1em 0.2em #333
 }
 
@@ -63,7 +63,7 @@ box-shadow: 0px 5px 3px rgb(23 34 45 / 40%);
   border-radius: 0 5px 5px 0;
   color: white;
   font-size: 18px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Nunito Sans', sans-serif;;
   padding: 10px;
   background: #EE2211;
   cursor: pointer;
@@ -109,7 +109,7 @@ padding-bottom: 30px;
 
 .desc li {
   font-size: 21px;
-  font-family:'Fira Code', monospace ;
+  font-family:'Nunito Sans', sans-serif; ;
   border-bottom: 2px solid #EFF4F9;
   padding: 30px;
   display: flex;
@@ -123,12 +123,8 @@ padding-bottom: 30px;
 .desc p {
   padding-top: 30px;
   font-size: 18px;
-  font-family:'Fira Code', monospace;
+  font-family:'Nunito Sans', sans-serif;;
   line-height: 1.2;
-}
-
-.itens {
-
 }
 
 .cont-aula {
@@ -147,35 +143,39 @@ z-index: 2;
 .title {
   text-align: center;
   font-size: 40px;
-  font-family:'Fira Code', monospace;
+  font-family:'Nunito Sans', sans-serif;;
   color: #445566;
   padding: 20px 0 40px 0;
 }
 
 .card {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 90%;
   margin: 0 auto;
 }
 
 .min-card {
+  border-radius: 5px;
   box-shadow: 0px 10px 10px rgb(187 204 221 / 40%), 0px 5px 5px rgb(187 204 221 / 40%);
-  padding: 0 60px;
+  padding: 0 88px;
   background: white;
+  max-width: 190px;
 }
 
 .min-card h3 {
   text-align: center;
   font-size: 1.5rem;
-  font-family:'Fira Code', monospace;  
-  padding: 20px 0;
+  text-transform: uppercase;
+  padding: 20px ;
+  font-family:  'Nunito Sans', sans-serif;
+  font-weight: bold;
 }
 
 .min-card p {
   font-size: 14px;
-  font-family:'Fira Code', monospace;
-  line-height: 1.2;
+  font-family:'Nunito Sans', sans-serif;
+  line-height: 1.6;
 
   }
 
@@ -186,6 +186,98 @@ z-index: 2;
 
 .min-desc {
   padding: 20px 0;
+  border-top: 2px solid #EFF4F9; 
+  border-bottom: 2px solid #EFF4F9; 
+}
+
+.preco{
+  color: #1188EE;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.button button{
+  font-size: 18px;
+  font-family: 'Nunito Sans', sans-serif;
+ color: white;
+ background: #445566;
+ padding: 10px 10px; 
+ border-radius: 5px;
+ margin-bottom: 30px;
+}
+
+.p {
+  font-size: 18px;
+  padding: 40px 0;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.img-fundo {
+  text-align: center;
+  background-image: url(./img/bg_quote.jpg);
+  background-size: cover;
+  padding: 170px 0;
+  font-size: 40px;
+  color: white;
+
+}
+
+.img-fundo p {
+  font-size: 20px;
+}
+
+.contato {
+  text-align: center;
+  font-size: 72px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.head {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form{
+  width: 40%;
+  display: grid;
+}
+
+.form label {
+  font-size: 18px;
+}
+
+.form input {
+  padding: 15px;
+  box-shadow:  0px 2px 2px rgb(187 204 221 / 40%);
+  border-radius: 5px;
+  background:  #EFF4F9;
+}
+
+.form textarea {
+  box-shadow:  0px 2px 2px rgb(187 204 221 / 40%);
+  border-radius: 5px;
+  background:  #EFF4F9;
+}
+
+.form2 {
+  width: 40%;
+  line-height: 1.5em;
+
+}
+
+.form2 h3 {
+  font-size: 18px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.form2 ul li{
+font-size: 16px;
+}
+
+.form-block {
   border-top: 2px solid #EFF4F9; 
   border-bottom: 2px solid #EFF4F9; 
 }
