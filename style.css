@@ -39,7 +39,7 @@ body {
 }
 
 .cont {
-  padding: 260px 0 60px 0;
+    padding: 260px 0 60px 0;
     background: url(../img/bg-intro.jpg) no-repeat center center;
     background-size: cover;
     
