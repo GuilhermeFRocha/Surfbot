@@ -368,10 +368,8 @@ footer p {
   font-size: 22px;
 }
 
-@media only screen and (max-device-width: 900px) {
-  .cont {
-    overflow: hidden;
-  }
+@media only screen and (max-width: 768px)  {
+  
 
   .header2{
     display: block;
@@ -396,7 +394,19 @@ footer p {
   }
 }
 
-@media only screen and (min-device-width : 360px) and (max-device-width : 425px) {
+.cont input {
+  width: 100px;
+}
+
+.cont h1 {
+width: 200px;
+}
+
+.head {
+  gap: 60px;
+}
+
+@media only screen and (max-device-width : 660px){
 
   .headerr img {
     width: 100px;
