@@ -441,7 +441,15 @@ width: 200px;
 .form input {
   width: 250px;
 }
+}
 
+@media only screen and (max-width: 492px) {
+.head {
+  display: block; 
+}
 
-
-} 
+.form2  {
+  display: flex;
+  gap: 80px;
+}
+}
