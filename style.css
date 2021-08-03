@@ -16,9 +16,7 @@ body {
   align-items: center;
 }
 
-.headerr img {
-  margin: 5px 0;
-}
+
 
 .lista {
   display: flex;
@@ -39,10 +37,11 @@ body {
 }
 
 .cont {
-    padding: 260px 0 60px 0;
+
   background-image: url(./img/bg-intro.jpg);
-    background-size: cover;
-    
+  background-size: cover;
+  padding-top: 250px;
+  background-position: center;
 }
 
 .cont h1 {
@@ -54,9 +53,9 @@ body {
 
 .cont input {
 font-size: 18px;
-padding: 16px 10px 17px 10px;
 border-radius: 5px 0 0 5px;
 box-shadow: 0px 5px 3px rgb(23 34 45 / 40%);
+padding: 10px;
 }
 
 .cont label {
@@ -66,8 +65,21 @@ box-shadow: 0px 5px 3px rgb(23 34 45 / 40%);
   font-family: 'Nunito Sans', sans-serif;
   background: #EE2211;
   cursor: pointer;
-  padding: 15px;
   box-shadow:0px 5px 3px rgb(23 34 45 / 40%);
+  padding: 10px;
+}
+
+.min-caixa{
+display: flex;
+}
+
+.caixa{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 40px;
 }
 
 .header2 {
