@@ -452,4 +452,11 @@ width: 200px;
   display: flex;
   gap: 80px;
 }
+
+@media only screen and (max-width: 459px){
+
+  .form2  {
+    display: flex;
+    gap: 40px;
+}
 }
