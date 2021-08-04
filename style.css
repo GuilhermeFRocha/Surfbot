@@ -368,6 +368,13 @@ footer p {
   font-size: 22px;
 }
 
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+.min-card {
+  padding: 0 60px 0 44px;
+}
+} 
+
+
 @media only screen and (max-width: 768px)  {
   
 
@@ -392,15 +399,16 @@ footer p {
   .desc-maps{
     display: none;
   }
+
+  .cont h1 {
+    font-size: 40px;
+  }
 }
 
 .cont input {
-  width: 100px;
+  width: 220px;
 }
 
-.cont h1 {
-width: 200px;
-}
 
 
 @media only screen and (max-device-width : 660px){
@@ -418,6 +426,11 @@ width: 200px;
 .cont h1 {
   display: none;
 }
+
+.cont input {
+  width: 200px;
+}
+
 .img img{
   width: 350px;
     height: 300px;
@@ -450,10 +463,25 @@ width: 200px;
   gap: 80px;
 }
 
+
+
+}
 @media only screen and (max-width: 459px){
 
   .form2  {
     display: flex;
     gap: 40px;
 }
+
+@media only screen and (min-width: 400px){
+
+}
+.cont input {
+display: none;
+}
+.cont label {
+display: none;
+}
+
+
 }
